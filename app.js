@@ -9,7 +9,7 @@ const app = () => {
 
     function workTimer() {
         minutes.textContent = "20";
-        seconds.textContent = "10";
+        seconds.textContent = "5";
         let intervalReturn = setInterval(() => {
             if (seconds.textContent != 0) {
                 seconds.textContent -= 1;
@@ -28,7 +28,7 @@ const app = () => {
     }
     function restTimer() {
         seconds.textContent = "25";
-        minutes.textContent = "0";
+        minutes.textContent = "00";
         let intervalReturn = setInterval(() => {
             if (seconds.textContent != "0") {
                 seconds.textContent -= 1;
